@@ -7,6 +7,6 @@ def two_sum(nums, target):
         if complement in seen:
             return [seen[complement], i]
 
-        seen[num] = i + 1  # BUG
+        seen[num] = i
 
     return []
